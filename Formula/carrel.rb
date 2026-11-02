@@ -2,22 +2,22 @@
 class Carrel < Formula
   desc "Research paper library for you and your AI"
   homepage "https://arunoruto.github.io/carrel"
-  version "0.4.0"
+  version "0.5.0"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     depends_on arch: :arm64
-    url "https://github.com/arunoruto/carrel/releases/download/v0.4.0/carrel-v0.4.0-aarch64-apple-darwin.tar.gz"
-    sha256 "c06c295583d3d0be7ff55b374bb6d819e23b189d228082f90dbc43fbebbbb713"
+    url "https://github.com/arunoruto/carrel/releases/download/v0.5.0/carrel-v0.5.0-aarch64-apple-darwin.tar.gz"
+    sha256 "fb4336d631839808f4c1154ad0e56df583eb81d5248db6f1442f251a1dbffc85"
   end
   on_linux do
     on_intel do
-      url "https://github.com/arunoruto/carrel/releases/download/v0.4.0/carrel-v0.4.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "5db4d2288285603181feb07f027696875963ee4b962bd26fd84eca472282c600"
+      url "https://github.com/arunoruto/carrel/releases/download/v0.5.0/carrel-v0.5.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "1581ade8a310e62de780d353b966b23351e0b4a1ce6956dd9c45ad7ebcd42b39"
     end
     on_arm do
-      url "https://github.com/arunoruto/carrel/releases/download/v0.4.0/carrel-v0.4.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "284d8623e4108225a60d42c03e114cf5b80435cb35b40acae8e23dce9d0aad44"
+      url "https://github.com/arunoruto/carrel/releases/download/v0.5.0/carrel-v0.5.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "020d20a977d28febef2d86cd6e6bcb84fc31994da7e53c8c10a7919b13f61ae1"
     end
   end
 
